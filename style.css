@@ -1184,7 +1184,7 @@ footer p{
 
 .left-side h2,
 .right-side h2{
-    color:#47d7ac;
+    color:rgba(155,92,255,.35);
     font-size:36px;
     margin-bottom:30px;
 }
