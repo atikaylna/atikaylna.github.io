@@ -286,3 +286,21 @@ function typeWriter(){
 }
 
 window.onload = typeWriter;
+
+const downloadCV = document.getElementById("downloadCV");
+
+downloadCV.addEventListener("click", function () {
+
+    const link = document.createElement("a");
+
+    link.href = "CV_ATIKA_YULIANA.pdf";
+
+    link.download = "CV_ATIKA_YULIANA.pdf";
+
+    document.body.appendChild(link);
+
+    link.click();
+
+    document.body.removeChild(link);
+
+});
