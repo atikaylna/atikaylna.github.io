@@ -1177,13 +1177,12 @@ footer p{
     width:100%;
 }
 
-.left-side h2,
-.right-side h2{
+.experience .left-side h2,
+.experience .right-side h2{
     color:rgba(155,92,255,.55);
     font-size:36px;
     font-weight:700;
     margin-bottom:30px;
-    letter-spacing:1px;
 }
 
 .achievement{
