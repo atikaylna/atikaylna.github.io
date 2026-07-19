@@ -1101,42 +1101,25 @@ footer p{
 
 }
 
-.btn-secondary{
-
+.btn-primary{
     display:inline-flex;
     align-items:center;
+    justify-content:center;
     gap:10px;
 
-    background:transparent;
-
+    background:#9b5cff;
     color:#fff;
 
-    border:2px solid #9b5cff;
+    padding:15px 30px;
+    border-radius:40px;
 
-    padding:15px 28px;
+    min-width:220px;
+    height:60px;
 
-    border-radius:50px;
-
+    font-size:22px;
     font-weight:600;
 
     transition:.4s;
-
-}
-
-.btn-secondary:hover{
-
-    background:#9b5cff;
-
-    transform:translateY(-5px);
-
-    box-shadow:0 15px 30px rgba(155,92,255,.4);
-
-}
-
-.btn-secondary i{
-
-    font-size:18px;
-
 }
 
 .profile-img{
