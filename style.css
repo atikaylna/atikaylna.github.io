@@ -1206,3 +1206,14 @@ body.light-mode footer{
 body.light-mode .progress{
     background:#ddd;
 }
+
+#theme-toggle{
+    width:45px;
+    height:45px;
+    border:none;
+    border-radius:50%;
+    background:#9b5cff;
+    color:white;
+    cursor:pointer;
+    margin-left:15px;
+}
