@@ -1179,39 +1179,44 @@ footer p{
 
 .left-side h2,
 .right-side h2{
-    color:#9b5cff;
-    font-size:32px;
-    margin-bottom:25px;
+    color:rgba(155,92,255,.55);
+    font-size:36px;
+    font-weight:700;
+    margin-bottom:30px;
+    letter-spacing:1px;
 }
 
 .achievement{
-    margin-top:40px;
+    margin-top:50px;
 }
 
 .item{
     background:#161b22;
-    border-left:5px solid rgb(155, 92, 255);
-    border-radius:12px;
-    padding:20px 25px;
-    margin-bottom:20px;
-    transition:.3s;
+    border:1px solid #2b3440;
+    border-left:6px solid rgba(155,92,255,.8);
+    border-radius:15px;
+    padding:25px 30px;
+    margin-bottom:25px;
+    transition:.4s;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
 }
 
 .item:hover{
-    transform:translateY(-5px);
-    box-shadow:0 15px 35px rgba(155,92,255,.55);
+    transform:translateY(-8px);
+    border-left:6px solid #9b5cff;
+    box-shadow:0 20px 40px rgba(155,92,255,.30);
 }
 
 .item h3{
     font-size:22px;
-    color:#fff;
+    color:#ffffff;
     margin-bottom:8px;
 }
 
 .item h4{
-    font-size:18px;
     color:#d1d5db;
-    margin-bottom:6px;
+    font-size:17px;
+    margin-bottom:8px;
 }
 
 .item p{
